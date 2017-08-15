@@ -6,6 +6,7 @@
   "author": "Sarmad Sangi <sarmadsangi@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "gh-pages": "^1.0.0",
     "next": "beta",
     "react": "^15.6.1",
     "react-dom": "^15.6.1"
@@ -13,6 +14,7 @@
   "scripts": {
     "dev": "next",
     "build": "next build && next export -o dist && touch dist/.nojekyll",
-    "start": "next start"
+    "start": "next start",
+    "deploy": "gh-pages -d dist"
   }
 }
