@@ -13,8 +13,8 @@
   },
   "scripts": {
     "dev": "next",
-    "build": "next build && next export -o dist && touch dist/.nojekyll",
+    "build": "next build && next export -o docs && touch docs/.nojekyll",
     "start": "next start",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d docs"
   }
 }
